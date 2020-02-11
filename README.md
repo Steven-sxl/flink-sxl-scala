@@ -3,11 +3,11 @@ flink scala exercise
 
 #项目创建
 终端执行：
-     第7，8，9，10行后面加上\\
-     mvn archetype:generate                               \
-      -DarchetypeGroupId=org.apache.flink              \
-      -DarchetypeArtifactId=flink-quickstart-scala      \
-      -DarchetypeVersion=1.9.0					\
+     
+     mvn archetype:generate                               \\
+      -DarchetypeGroupId=org.apache.flink              \\
+      -DarchetypeArtifactId=flink-quickstart-scala      \\
+      -DarchetypeVersion=1.9.0					\\
       -DaechetypeCatalog=local
 
 使用IDEA import project
